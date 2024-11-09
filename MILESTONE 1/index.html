@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- External stylesheet link -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>STATIC RESUME BUILDER</title>
+    
+    <!-- Title heading for the page -->
+    <h1><i><u><b>STATIC RESUME BUILDER</b></u></i></h1>
+    
+    <!-- Form for Resume generation -->
+    <form id="Resumeform">
+        
+        <!-- Personal Information Section -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <!-- Name input field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br>
+            
+            <!-- Email input field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <!-- Phone input field -->
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            
+            <!-- Textarea for Education details -->
+            <label for="education">Education</label>
+            <textarea name="education" id="education" rows="4" required></textarea>
+        </fieldset>
+        
+        <!-- Experience Section -->
+        <fieldset>
+            <legend>Experience</legend>
+            
+            <!-- Experience text area -->
+            <label for="experience">Experience</label>
+            <textarea name="experience" id="experience" rows="4" required>
+            </textarea>
+        </fieldset>
+    
+        <!-- Skills Section -->
+        <fieldset>
+            <legend>Skills</legend>
+            
+            <!-- Skills text area -->
+            <label for="skills">Skills</label>
+            <textarea name="skills" id="skills" rows="4" required>
+            </textarea>
+            
+            <!-- Submit button to generate resume -->
+            <button type="submit">Generate Resume</button>
+        </fieldset>
+    
+    </form>
+</head>
+<body>
+    
+    <!-- External JavaScript file -->
+    <script src="index.js"></script> 
+</body>
+</html>
